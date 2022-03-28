@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGPA CALCULATOR</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <script src="./bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container form mt-5">
+       
+        <div class="row d-flex justify-content-center" >
+            <div class="col-lg-6" >
+                <div class="card shadow">
+                    <div class="card-body">
+                        <h1 class="text-center display-3">CGPA CALCULATOR</h1>
+                            <form action="#" method="post">
+                                <div class="mb-1">
+                                    <label for="name" class="form-label">STUDENT NAME</label>
+                                    <input type="text" name="cname" id="Sname" class="form-control" required>
+                                </div>
+                                <div class="mb-1">
+                                    <label for="roll" class="form-label">ROLL NO</label>
+                                    <input type="text" name="roll" id="roll" class="form-control" required>
+                                </div>
+                               <div class="mb-2">
+                                   <label for="sem1" class="form-label">FIRST SEM GPA</label>
+                                   <input type="number" name="sem1" id="sem1" class="form-control" required>
+                               </div>
+                               <div class="mb-2">
+                                <label for="sem2" class="form-label">SECOND SEM GPA</label>
+                                <input type="number" name="sem2" id="sem2" class="form-control" required>
+                            </div>
+                            <div class="mb-2">
+                                <label for="sem3" class="form-label">THIRD SEM GPA</label>
+                                <input type="number" name="sem3" id="sem3" class="form-control" required>
+                            </div>
+                                <div class="d-grid gap-2">
+                                        <button class="btn btn-success">CALCULATE</button>
+                                        <a href="./gpa.html" class="btn btn-primary">GPA CALCULATOR</a>
+                                </div>
+                            </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container dis mt-5">
+            <div class="row  mt-5">
+                <div class="col-lg-6 mt-3  offset-3">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h3 class="display-4"></h3>
+                            <h4 class="display-5"></h4>
+                          
+                                <ul style="font-size: 15px;" >
+                                    
+                                </ul>
+                            
+                            
+                            <h5 class="display-6">CGPA:</h5>
+                            <div class="d-grid gap-2">
+
+                            
+                            <a href="./index.html" class="btn btn-success">CALCULATE AGAIN</a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
